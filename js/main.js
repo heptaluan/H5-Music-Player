@@ -107,7 +107,7 @@ $(function(){
 
 	/*-------------------------- +
   		点击图片 播放/暂停
- 	+-------------------------- */
+ 	+--------------------------- */
 	function Play(){
 		$(".cover").fadeTo(400, 1);
 		Player.play();
@@ -142,7 +142,7 @@ $(function(){
 
 	/*-------------------------- +
   		播放列表前面小图标
- 	+-------------------------- */
+ 	+--------------------------- */
 	function List_Scroll(obj){
 		var position = obj.index() * obj.outerHeight();
 		$("#scroll-box").stop().animate({marginTop: position}, 800, 'easeOutCubic');
@@ -157,7 +157,7 @@ $(function(){
 
 	/*-------------------------- +
   		AJAX调用
- 	+-------------------------- */
+ 	+--------------------------- */
 	function List_Ajax(){
 		$.ajax({
 			url: 'music/music.json',
