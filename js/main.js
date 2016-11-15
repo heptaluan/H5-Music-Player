@@ -13,10 +13,11 @@ $(function(){
 
 	// 点击图片 播放/暂停
 	$(".cover").click(function(){
-		if (Player.paused)
-			Play();
-		else
-			Pause();
+            if (Player.paused) {
+                Play();
+            } else {
+                 Pause();
+            }
 	});
 
 	
