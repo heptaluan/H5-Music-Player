@@ -84,7 +84,7 @@ $(function(){
 
 	/*-------------------------- +
   		进度条样式
- 	+-------------------------- */
+ 	+--------------------------- */
 	$(".progress").click(function(e){
 		var x = (e.offsetX || e.originalEvent.layerX) / $(this).width();
 		Player.currentTime = Player.duration * x;
@@ -135,7 +135,7 @@ $(function(){
 
 	/*-------------------------- +
   		播放列表 hover
- 	+-------------------------- */
+ 	+--------------------------- */
 	function List_Hover(obj){
 		obj.toggleClass("hover");
 	};
