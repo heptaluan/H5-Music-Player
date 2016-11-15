@@ -1,5 +1,5 @@
 $(function(){
- 
+
 	// 初始化
 	var Playing = 0;
 	var Player = document.getElementById("play");
