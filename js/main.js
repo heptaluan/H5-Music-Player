@@ -33,7 +33,7 @@ $(function(){
 		_this.find(".play").click(function(){
 
 			//防止暂停之后切歌图片还是半透明的
-			$(".cover").css('opacity',1);
+			$(".cover").css('opacity', 1);
 
 			Playing = _this.index();
 
