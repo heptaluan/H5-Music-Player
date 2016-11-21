@@ -1,4 +1,4 @@
-$(function(){   
+$(function(){    
 
 	// 初始化
 	var Playing = 0;
